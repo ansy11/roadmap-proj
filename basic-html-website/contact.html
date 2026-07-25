@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- SEO tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Your Name">
+        <meta name="description" content="Contact Your Name">
+        <meta name="keywords" content="Keyword 1, Keyword 2, Keyword 3">
+
+        <!-- Open graph meta tags -->
+        <meta property="og:title" content="Contact - Your Name">
+        <meta property="og:description" content="Contact for a dev job">
+        <meta property="og:type" content="website">
+        <!-- <meta property="og:image" content="">
+        <meta property="og:url" content=""> -->
+
+        <!-- favicon -->
+        <link rel="icon" href="images/love.png" type="image/x-icon">
+
+        <title>Contact</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="/" class="brand">
+                    <img class="logo" src="images/love.png" alt="Your Name Logo">
+                    <span>Your Name</span>
+                </a>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <section class="hero">
+                <h1>Contact</h1>
+                <p>Short description goes here</p>
+            </section>
+        </header>
+
+        <main>
+            <section>
+                <div class="container">
+                    <form>
+                        <!-- <div class="form-group">
+                            <label for="this is the id so fname">label that shows for user e.g. First Name</label>
+                            <input
+                            type="text" type of field so like text, email, tel
+                            id="fname"
+                            name="firstname"> this is what gets submitted
+                        </div> -->
+                        
+                        <div class="form-group">
+                            <label for="fullname">Full Name</label>
+                            <input 
+                            type="text" 
+                            id="fullname" 
+                            name="fullname" 
+                            required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Contact Number</label>
+                            <input 
+                            type="tel" 
+                            id="phone" 
+                            name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">What are you looking for?</label>
+
+                            <select id="service" name="service">
+                                <option value="">Choose one</option>
+                                <option value="design-only">Design only</option>
+                                <option value="dev-only">Dev only</option>
+                                <option value="design-dev">Design and dev</option>
+                            </select>
+                        </div>
+
+                        <fieldset>
+                            <legend>What's your budget?</legend>
+                            <label>
+                                <input
+                                type="radio"
+                                name="budget"
+                                value="small">
+                                Under 500
+                            </label>
+
+                            <label>
+                                <input
+                                type="radio"
+                                name="budget"
+                                value="big">
+                                Over 500
+                            </label>
+                        </fieldset>
+                        
+                        <!-- 
+                        <fieldset> this is grouped
+                            <legend>What's your budget?</legend> label users see
+                            <label>
+                                <input
+                                type="radio"
+                                name="budget" this is what groups the diff items tgt
+                                value="small"> data sent when selected
+                                Under 500 label
+                            </label>
+                        </fieldset> -->
+
+                        <div class="form-group">
+                            <label for="message">Additional Notes</label>
+                            <textarea 
+                            id="message" 
+                            name="message" 
+                            rows="5"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="attachment">Attachment</label>
+                            <input 
+                            type="file" 
+                            id="attachment" 
+                            name="attachment">
+                        </div>
+
+                        <button type="submit">Submit</button>
+
+                        <!-- <label> First Name
+                            <input type="text" required>
+                        </label> -->
+                    </form>       
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; All rights reserved 2026</p>
+        </footer>
+    </body>
+</html>
